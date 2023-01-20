@@ -63,6 +63,7 @@
     width: 30%;
     background-color: rgb(175, 175, 175);
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .left-area .contact{
@@ -124,6 +125,34 @@
     transform: translateY(-50%);
     border-radius: 10px;
 }
+.folow h1{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.folow h4{
+    font-size: 18px;
+    margin: 10px 0;
+
+}
 .right-area{
     width: 70%;
+    padding: 50px;;
+}
+.right-area h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.right-area h1 span{
+    font-size: 50px;
+    margin-right: 30px;
+    color: lightgray;
+}
+.right-area .about p{
+    padding-left: 70px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 17px;
+    color:rgb(223, 3, 3);
+    margin-top: 10px;
 }
