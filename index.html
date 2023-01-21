@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="all.min.css">
+    <!--link rel="stylesheet" href="all.min.css"-->
+    <script src="https://kit.fontawesome.com/c8c08c1cda.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -56,11 +57,11 @@
                 <div class="follow">
                     <h1>FOLLOW ME</h1>
                     <h4>Facebook</h4>
-                    <a href="https://www.facebook.com/manuel.sedanoluna/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/manuel.sedanoluna/" target="facebook"><i class="fa-brands fa-facebook"></i></a>
                     <h4>Instagram</h4>
-                    <a href="https://www.instagram.com/manuelsedanoluna/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/manuelsedanoluna/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <h4>Github</h4>
-                    <a href="https://github.com/manuelsedano" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/manuelsedano" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
 
@@ -93,8 +94,7 @@
                 <div class="education">
                     <h1><span><i class="fas fa-graduation-cap"></i></span>EDUCATION</h1>
                     <div class="edu-group">
-                        <h3>Computer Systems Engineering</h3>
-                        <h4>University of Guadalajara</h4>
+                        <h4>Computer Systems Engineering in University of Guadalajara</h4>
                         <span> 2019-2023</span>
                         <p>Computer Systems Engineering is a career that is dedicated to the design, development, implementation and maintenance of computer systems, it is a career that is very broad and that has a lot of knowledge in the area of ​​programming, networks, databases, among others.</p>
                     </div>
@@ -104,6 +104,13 @@
 
 
     </div>
-    <script src="all.main.js"></script>
+    <button>Print CV</button>
+    <script>
+            const btn = document.querySelector('button');
+            btn.addEventListener('click', () => {
+                window.print();
+            })
+    </script>
+    
 </body>
 </html>
